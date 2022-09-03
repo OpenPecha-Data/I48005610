@@ -1,27 +1,195 @@
 id: I48005610
+legacy_id: P000359
+ocr_import_info:
+  bdrc_scan_id: W30199
+  source: bdrc
+  ocr_info:
+    timestamp: '2021-11-15T08:38:22'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-16T10:28:25+00:00'
-last_modified: '2022-06-15T16:57:33.793733+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T11:26:25.097312+00:00'
+last_modified: 2022-09-03 19:29:34.472220
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W30199
-  title: སྙན་བརྒྱུད་ཁྲིད་ཆེན་བཅུ་གསུམ་སྐོར།
-  author: ''
+  id: http://purl.bdrc.io/resource/W30199
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    92B5:
-      image_group_id: I5994
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW30199
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: སྙན་བརྒྱུད་ཁྲིད་ཆེན་བཅུ་གསུམ་སྐོར།
+statistics:
+  ocr_word_mean_confidence_index: 0.7636193421505935
+  ocr_word_median_confidence_index: 0.8500000238418579
+quality: null
+bases:
+  I5994:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5994
       total_pages: 700
-      order: 1
-      base_file: 92B5.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I5994.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8700000047683716
+      ocr_word_mean_confidence_index: 0.7883860350957536
+    legacy_id: v001
+  I6006:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6006
+      total_pages: 904
+      volume_number: 13
+      volume_pages_bdrc_intro: 2
+    order: 13
+    base_file: I6006.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8799999952316284
+      ocr_word_mean_confidence_index: 0.8009946384408885
+    legacy_id: v013
+  I6000:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6000
+      total_pages: 260
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I6000.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.699999988079071
+      ocr_word_mean_confidence_index: 0.6563284956331445
+    legacy_id: v007
+  I6005:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6005
+      total_pages: 936
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I6005.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8999999761581421
+      ocr_word_mean_confidence_index: 0.8107592672929176
+    legacy_id: v012
+  I5995:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5995
+      total_pages: 882
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I5995.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8799999952316284
+      ocr_word_mean_confidence_index: 0.7870122584360429
+    legacy_id: v002
+  I5996:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5996
+      total_pages: 444
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I5996.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8600000143051147
+      ocr_word_mean_confidence_index: 0.7706521304554758
+    legacy_id: v003
+  I5997:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5997
+      total_pages: 1038
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I5997.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7136952305849672
+    legacy_id: v004
+  I6001:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6001
+      total_pages: 598
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I6001.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8700000047683716
+      ocr_word_mean_confidence_index: 0.7867166804026035
+    legacy_id: v008
+  I5998:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5998
+      total_pages: 530
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I5998.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7478313393788926
+    legacy_id: v005
+  I6004:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6004
+      total_pages: 498
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I6004.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8700000047683716
+      ocr_word_mean_confidence_index: 0.778820290771228
+    legacy_id: v011
+  I5999:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5999
+      total_pages: 498
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I5999.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.7547095284137628
+    legacy_id: v006
+  I6002:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6002
+      total_pages: 708
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I6002.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7178140696770268
+    legacy_id: v009
+  I6003:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I6003
+      total_pages: 512
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I6003.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7699999809265137
+      ocr_word_mean_confidence_index: 0.7005399056077432
+    legacy_id: v010
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
